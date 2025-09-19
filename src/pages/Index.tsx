@@ -12,7 +12,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/img/f1933ddc-3af9-4fc3-9e0c-a388e16a2ee9.jpg')`
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('/img/53f6aa70-c08b-4b9f-9480-ba13052e4411.jpg')`
           }}
         ></div>
         <div className="container mx-auto px-4 relative z-10">
