@@ -10,7 +10,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative text-white py-20">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center rounded-sm"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('/img/53f6aa70-c08b-4b9f-9480-ba13052e4411.jpg')`
           }}
