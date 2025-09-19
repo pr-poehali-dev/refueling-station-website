@@ -8,12 +8,11 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary to-primary/90 text-white py-20">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative text-white py-20">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-30"
+          className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('/img/7007aae1-efa0-442c-b9ab-3788baff7609.jpg')`
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('/img/f1933ddc-3af9-4fc3-9e0c-a388e16a2ee9.jpg')`
           }}
         ></div>
         <div className="container mx-auto px-4 relative z-10">

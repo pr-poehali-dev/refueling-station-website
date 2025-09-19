@@ -24,8 +24,8 @@ const Layout = ({ children }: LayoutProps) => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center space-x-3">
-              <Icon name="Fuel" size={32} className="text-accent" />
-              <h1 className="text-2xl font-bold">GAS STATION</h1>
+              <Icon name="Fuel" size={40} className="text-accent" />
+              <h1 className="text-4xl font-bold tracking-wide">GAS STATION</h1>
             </Link>
             <nav className="hidden md:flex space-x-8">
               {navigation.map((item) => (
@@ -40,10 +40,12 @@ const Layout = ({ children }: LayoutProps) => {
                 </Link>
               ))}
             </nav>
-            <Button variant="outline" className="bg-accent border-accent text-accent-foreground hover:bg-accent/90">
-              <Icon name="Phone" size={16} className="mr-2" />
-              Связаться
-            </Button>
+            <Link to="/contact">
+              <Button variant="outline" className="bg-accent border-accent text-accent-foreground hover:bg-accent/90">
+                <Icon name="Phone" size={16} className="mr-2" />
+                Связаться
+              </Button>
+            </Link>
           </div>
         </div>
       </header>

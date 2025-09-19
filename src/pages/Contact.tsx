@@ -153,11 +153,15 @@ const Contact = () => {
                   <CardTitle className="text-primary">Как нас найти</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="bg-muted rounded-lg h-64 flex items-center justify-center mb-4">
+                  <div 
+                    className="bg-muted rounded-lg h-64 flex items-center justify-center mb-4 cursor-pointer hover:bg-muted/80 transition-colors" 
+                    onClick={() => window.open('https://maps.google.com/?q=55.7558,37.6176', '_blank')}
+                  >
                     <div className="text-center text-muted-foreground">
                       <Icon name="MapPin" size={48} className="mx-auto mb-2" />
-                      <div className="text-lg">Интерактивная карта</div>
+                      <div className="text-lg">📍 Показать на карте</div>
                       <div className="text-sm">г. Москва, ул. Примерная, д. 123</div>
+                      <div className="text-xs mt-2 text-accent">Нажмите для перехода</div>
                     </div>
                   </div>
                   <div className="grid grid-cols-2 gap-4 text-sm">
